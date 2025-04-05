@@ -1,0 +1,58 @@
+.flex {
+    display: flex;
+}
+.justify-center {
+    justify-content: center;
+}
+.items-center {
+    align-items: center;
+}
+.border {
+    border: 2 px solid rgb(8, 8, 8);
+    margin: 3px;
+}
+.bg-black {
+    background-color: black;
+    color: white;
+}
+.invert {
+    filter: invert(1);
+}
+.bg-grey {
+    background-color: #121212;
+}
+.rounded {
+    border-radius: 7px;
+}
+.m-1 {
+    margin: 5px;
+}
+.p-1 {
+    padding: 10px;
+}
+
+
+
+/* Style the scrollbar container */
+::-webkit-scrollbar {
+  width: 17px; /*Width of the scrollbar*/
+  height: 12px; /* Height of the horizontal scrollbar */
+}
+
+/* Style the scrollbar track (background of the scrollbar) */
+::-webkit-scrollbar-track {
+  background-color: #2e2e2e; /* Dark gray background */
+  border-radius: 10px;
+}
+
+/* Style the scrollbar thumb (the draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+  background-color: #555; /* Darker gray color for the thumb */
+  border-radius: 6px;
+  border: 3px solid #2e2e2e; /* Optional: Adds a border around the thumb for better contrast */
+}
+
+/* Style the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #888; /* Lighter gray when hovered */
+}
